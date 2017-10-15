@@ -19,6 +19,18 @@ export default class App extends Component<{}> {
         <SweetText style={styles.text}>
           Tasty tasty text
         </SweetText>
+        <SweetButton
+          style={{ margin: 10 }}
+          type="primary"
+          onPress={() => {}}
+          text="Drink me"
+        />
+        <SweetButton
+          style={{ margin: 10 }}
+          type="secondary"
+          onPress={() => {}}
+          text="Eat me"
+        />
       </View>
     );
   }
