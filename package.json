@@ -7,9 +7,9 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"react": "^16.0.0",
-		"react-native": "0.49.3",
-		"sweet-company-styles": "^1.3.0"
+		"react": "^16.0.0-beta.5",
+		"react-native": "^0.49.3",
+		"sweet-company-styles": "^2.1.0"
 	},
 	"devDependencies": {
 		"babel-jest": "21.2.0",

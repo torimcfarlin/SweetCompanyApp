@@ -36,7 +36,11 @@ export default class App extends Component<{}> {
           onPress={() => {}}
           text="Eat me"
         />
-        <SweetImage image={image} description="It's a candy cane!" />
+        <SweetImage
+          image={image2}
+          description="It's a candy cane!"
+          style={{ marginTop: 125, width: 100, height: 200 }}
+        />
       </View>
     );
   }

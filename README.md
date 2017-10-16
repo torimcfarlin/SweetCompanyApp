@@ -3,10 +3,11 @@
 
 ## Get started
 
-npm install
-npm start
+Using Node 8.6.0.
 
-open new window: ( :( )
+`npm install`
+`npm start`
 
-react-native run-ios
+open new window: ( :( some sadness with the newest React Native )
 
+`react-native run-ios`
