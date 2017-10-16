@@ -5,9 +5,14 @@ import {
   SweetText,
   SweetTitle,
   SweetButton,
+  SweetImage,
   watermelon,
   white,
 } from 'sweet-company-styles';
+
+
+const image1 = 'https://st.depositphotos.com/1801791/1399/i/950/depositphotos_13999421-stock-photo-colorful-spiral-lollipop-lolly-pop.jpg';
+const image2 = require('./img/lollypop.png');
 
 export default class App extends Component<{}> {
   render() {
@@ -31,6 +36,7 @@ export default class App extends Component<{}> {
           onPress={() => {}}
           text="Eat me"
         />
+        <SweetImage image={image} description="It's a candy cane!" />
       </View>
     );
   }
